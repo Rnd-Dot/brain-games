@@ -1,4 +1,4 @@
-name: Node CI
+name: Eslint
 
 
 on:
@@ -34,4 +34,3 @@ jobs:
           cache: 'npm'
       - run: make install
       - run: make lint
-      
