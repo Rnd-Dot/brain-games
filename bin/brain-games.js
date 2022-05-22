@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/*jshint esversion: 6 */
+/* jshint esversion: 6 */
 
 import userName from '../src/cli.js';
 
