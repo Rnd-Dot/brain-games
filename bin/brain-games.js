@@ -3,4 +3,4 @@
 import userName from '../src/cli.js';
 
 userName();
-console.log('Welcome to the Brain Games!'); 
+console.log('Welcome to the Brain Games!');
