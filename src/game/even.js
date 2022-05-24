@@ -1,6 +1,6 @@
 import { randomNumber, getDivider } from '../help.js';
 import { numberMin, numberMax, gameCondition } from '../conditions.js';
-import { playGame } from '../play-game.js';
+import { playGame } from '../play.js';
 
 const logicGame = () => {
   const number = randomNumber(numberMin, numberMax);

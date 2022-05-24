@@ -22,3 +22,4 @@ rules:
     - js: always
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
   linebreak-style: 0 
+  indent: 'off'
