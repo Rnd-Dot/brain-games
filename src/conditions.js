@@ -1,6 +1,3 @@
-export const numberMin = 0;
-export const numberMax = 50;
+const getRandomNumber = (min, max = 100) => Math.floor(min + Math.random() * (max + 1 - min));
 
-export const gameCondition = {
-    even: 'Answer "yes" if the number is even, otherwise answer "no".'
-};
+export default getRandomNumber;

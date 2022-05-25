@@ -1,17 +1,16 @@
-import { randomNumber, getDivider } from '../help.js';
-import { numberMin, numberMax, gameCondition } from '../conditions.js';
-import { playGame } from '../play.js';
+import getRandomNumber from '../conditions.js';
+import runGame from '../play.js';
 
-const logicGame = () => {
-  const number = randomNumber(numberMin, numberMax);
-  const answer = getDivider(number) ? 'yes' : 'no';
-  const question = `Question: ${number}`;
+const isEven = (number) => number % 2 === 0;
 
-  return [question, answer];
+const description = 'Answer "yes" if given number is even. Otherwise answer "no".';
+const getGameData = () => {
+  const number = getRandomNumber(0, 25);
+  const question = `${number}`;
+  const answer = isEven(number) ? 'yes' : 'no';
+  return [question, String(answer)];
 };
 
-const evenPlay = () => {
-  playGame(logicGame, gameCondition);
-};
+const brainEven = () => runGame(description, getGameData);
 
-export default evenPlay;
+export default brainEven;
