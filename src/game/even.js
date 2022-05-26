@@ -1,5 +1,5 @@
 import getRandomNumber from '../conditions.js';
-import runGame from '../index.js';
+import runGame from '../play.js';
 
 const isEven = (number) => number % 2 === 0;
 
