@@ -1,5 +1,5 @@
 import getRandomNumber from '../conditions.js';
-import runGame from '../play.js';
+import runGame from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -8,10 +8,11 @@ const gcd = (a, b) => {
         return b;
     }
     while (b !== 0) {
-        if (a > b) {
+        if (a > b) 
             a -= b;
-        } else { b -= a; }
-    }
+        else  
+            b -= a; 
+    
 
     return a;
 };
