@@ -4,11 +4,15 @@ import runGame from '../play.js';
 const description = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (a, b) => {
-    if (a == 0) return b;
-
-    while (b != 0) {
-        if (a > b) a -= b;
-        else b -= a;
+    if (a === 0) {
+        return b;
+    }
+    while (b !== 0) {
+        if (a > b) {
+            a -= b;
+        }
+        else 
+            b -= a;
     }
 
     return a;
