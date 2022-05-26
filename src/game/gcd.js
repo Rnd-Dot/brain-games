@@ -8,12 +8,8 @@ const gcd = (a, b) => {
         return b;
     }
     while (b !== 0) {
-        if (a > b) 
-            a -= b;
-        else  
-            b -= a; 
-    
-
+        if (a > b) { a -= b; } else { b -= a; }
+    }
     return a;
 };
 
