@@ -9,7 +9,12 @@
 ## To start the game, enter in the name of the game:
 
 :one: **brain-even**
+:two: **brain-calc**
+:three: **brain-gcd**
 
 
 ## Brain-even
 <a href="https://asciinema.org/a/EOHgl60fmU2rGKaiDrzHMt5eW" target="_blank"><img src="https://asciinema.org/a/EOHgl60fmU2rGKaiDrzHMt5eW.svg" /></a>
+
+## Brain-gcd
+<a href="https://asciinema.org/a/aDBVLFzBZw0gzBqCgLADzyrbs" target="_blank"><img src="https://asciinema.org/a/aDBVLFzBZw0gzBqCgLADzyrbs.svg" /></a>
