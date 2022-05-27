@@ -16,7 +16,7 @@ const getGameData = () => {
     const startProgression = getRandomNumber(0, 100);
     const lengthProgression = getRandomNumber(5, 10);
     const diffProgression = getRandomNumber(2, 6);
-    const unknownNumber = getRandomNumber(0, lengthProgression-1);
+    const unknownNumber = getRandomNumber(0, lengthProgression - 1);
     const progression = getProgression(startProgression, diffProgression, lengthProgression);
     const answer = progression[unknownNumber];
     progression[unknownNumber] = '..';
