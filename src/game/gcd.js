@@ -4,17 +4,19 @@ import runGame from '../main.js';
 const description = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (a, b) => {
-  if (a === 0) {
-    return b;
+  let num1 = a;
+  let num2 = b;
+  if (num1 === 0) {
+    return num2;
   }
-  while (b !== 0) {
-    if (a > b) {
-      a -= b;
+  while (num2 !== 0) {
+    if (num1 > num2) {
+      num1 -= num2;
     } else {
-      b -= a;
+      num2 -= num1;
     }
   }
-  return a;
+  return num1;
 };
 
 const getGameData = () => {
