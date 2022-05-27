@@ -8,15 +8,15 @@
 
 ## To start the game, enter in the name of the game:
 
-:one: **brain-even**
+:one: **brain-even** Игра: "Проверка на чётность"
 
-:two: **brain-calc**
+:two: **brain-calc** Игра: "Калькулятор"
 
-:three: **brain-gcd**
+:three: **brain-gcd** Игра "НОД"(наибольший общий делитель)
 
-:four: **brain-progression**
+:four: **brain-progression** Игра "Арифметическая прогрессия"
 
-:five: **brain-prime**
+:five: **brain-prime** Игра "Простое ли число?"
 
 
 ## Brain-even
@@ -29,7 +29,7 @@
 <a href="https://asciinema.org/a/aDBVLFzBZw0gzBqCgLADzyrbs" target="_blank"><img src="https://asciinema.org/a/aDBVLFzBZw0gzBqCgLADzyrbs.svg" /></a>
 
 ## Brain-progression
-<a href="https://asciinema.org/a/wabV2Ra0V1KshvaL8s7pkxMII" target="_blank"><img src="https://asciinema.org/a/wabV2Ra0V1KshvaL8s7pkxMII.svg" /></a>
+<a href="https://asciinema.org/a/72xATj4BjJusU9NDotv0nHmAJ" target="_blank"><img src="https://asciinema.org/a/72xATj4BjJusU9NDotv0nHmAJ.svg" /></a>
 
 ## Brain-prime
 <a href="https://asciinema.org/a/J03z2zQy1rKkRO298akH1h6mO" target="_blank"><img src="https://asciinema.org/a/J03z2zQy1rKkRO298akH1h6mO.svg" /></a>
