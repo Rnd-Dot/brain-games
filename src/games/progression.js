@@ -3,10 +3,10 @@ import runGame from '../main.js';
 
 const description = 'What number is missing in the progression?';
 
-const getProgression = (start, difference, length) => {
+const getProgression = (start, step, length) => {
   const progression = [];
   for (let i = 0; i < length; i += 1) {
-    const number = start + difference * i;
+    const number = start + step * i;
     progression.push(number);
   }
   return progression;
@@ -20,7 +20,7 @@ const generateRound = () => {
   const progression = getProgression(startProgression, stepProgression, lengthProgression);
   const answer = progression[hiddenIndex];
   progression[hiddenIndex] = '..';
-  const question = `${progression.join(' ')}`;
+  const question = progression.join(' ');
   return [question, String(answer)];
 };
 
